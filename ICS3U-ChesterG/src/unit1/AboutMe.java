@@ -14,21 +14,24 @@ public class AboutMe {
 		System.out.println("Lawrence Park CI");
 		System.out.println("GO PANTHERS!");
 		
-		System.out.println("\nMy Late Start Schedule:");
-		System.out.println("\nMonday (Day 1):");
-		System.out.println("\t 9:00-10:15 ICS3U1-1 Ms.Kemp");
-		System.out.println("\t 10:20-11:40 BAF3M1-3 Mr.Goldkind");
-		System.out.println("\t 11:40- 12:40 LUNCH!!!");
-		System.out.println("\t 12:40-1:55 NBE3U1-5 Mr. Solakis");
-		System.out.println("\t 2:00-3:15 BOH4M1-1 Mr.Goldkind");
-		
-		System.out.println("\nTuesday (Day 2):");
-		System.out.println("\t 9:00-10:15 BAF3M1-3 Mr.Goldkind");
-		System.out.println("\t 10:20-11:40 ICS3U1-1 Ms.Kemp");
-		System.out.println("\t 11:40- 12:40 LUNCH!!!");
-		System.out.println("\t 12:40-1:55 NBE3U1-5 Mr.Goldkind");
-		System.out.println("\t 2:00-3:15 BOH4M1-1 Mr. Solakis");
-
+		System.out.format("\nMy Late Start Schedule:");
+		System.out.format("\n");
+		System.out.format("\n Day: \t\t%-10s | %-12s| %-10s | %-10s", " Period 1", "Period 2", "Period 3", "Period 4");
+		System.out.format("\n");
+		System.out.format("\n Monday \t9:00-10:15 | 10:20-11:40 | 12:40-1:55 | 2:00-3:15");
+		System.out.format("\n Monday");
+		System.out.format("\n");
+		System.out.format("\n Tuesday \t9:00-10:15 | 10:20-11:40 | 12:40-1:55 | 2:00-3:15");
+		System.out.format("\n Tuesday");
+		System.out.format("\n");
+		System.out.format("\n Wednesday \t9:55-10:55 | 11:00-11:59 | 1:00-2:05  | 2:10-3:15");
+		System.out.format("\n Wednesday");
+		System.out.format("\n");
+		System.out.format("\n Thursday \t9:00-10:15 | 10:20-11:40 | 12:40-1:55 | 2:00-3:15");
+		System.out.format("\n Thursday");
+		System.out.format("\n");
+		System.out.format("\n Friday \t9:00-10:15 | 10:20-11:40 | 12:40-1:55 | 2:00-3:15");
+		System.out.format("\n Friday");
 	}
 
 }
