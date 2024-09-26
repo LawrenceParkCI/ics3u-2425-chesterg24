@@ -18,12 +18,17 @@ public class Bingo {
 		System.out.println("\n");
 		System.out.println("\t6. The winning player yells BINGO.");
 		System.out.println("\n");
-		System.out.println("\t B \t I \t N \t G \t O");
-		System.out.println("\t 2 \t 20 \t 42 \t 60 \t 64");
-		System.out.println("\t 14 \t 25 \t 32 \t 55 \t 70");
-		System.out.println("\t 5 \t 18 \t FREE \t 53 \t 67");
-		System.out.println("\t 12 \t 16 \t 31 \t 46 \t 75");
-		System.out.println("\t 10 \t 22 \t 39 \t 59 \t 71");
+		System.out.printf("%15s%15s%15s%15s%15s","B","I", "N", "G", "O");
+		System.out.println("\n");
+		System.out.printf("%15s%15s%15s%15s%15s", "2", "20", "42" , "60", "64");
+		System.out.println("\n");
+		System.out.printf("%15s%15s%15s%15s%15s", "14", "25", "32", "55", "70");
+		System.out.println("\n");
+		System.out.printf("%15s%15s%15s%15s%15s", "5", "18","FREE", "53", "67");
+		System.out.println("\n");
+		System.out.printf("%15s%15s%15s%15s%15s", "12", "16", "31", "46", "75");
+		System.out.println("\n");
+		System.out.printf("%15s%15s%15s%15s%15s", "10", "22", "39", "59", "71");
 	}
 
 }
