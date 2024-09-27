@@ -5,7 +5,11 @@ package unit1;
  * @author Gavin Chester
  */
 public class AboutMe {
-
+	/**
+	 * Entry point to the program
+	 * @param args unused 
+	 */
+	
 	public static void main(String[] args) {
 		// This prints my information to the system console
 		System.out.println("Gavin Chester");

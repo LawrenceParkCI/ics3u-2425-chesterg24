@@ -1,7 +1,16 @@
 package unit1;
-
+/**
+ * ExampleProgram.java
+ * This is a sample program to show you the layout of a 
+ * typical java program
+ * 2024/09/27
+ * @author Gavin Chester 
+ */
 public class ASCIIWordArt {
-
+	/**
+	 * Entry point to the program
+	 * @param args unused 
+	 */
 	public static void main(String[] args) {
 		//This prints my information to the system console
 		System.out.println("ASCII WORD ART/PHOTO!");
