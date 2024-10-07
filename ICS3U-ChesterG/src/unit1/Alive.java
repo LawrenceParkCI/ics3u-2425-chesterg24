@@ -20,25 +20,25 @@ public class Alive {
 		System.out.print("\n");
 		
 		
-		System.out.print("Type in your birth year and <Enter>: ");
+		System.out.print("Type in your birth year: ");
 		year = sc.nextInt();
 		
-		System.out.print("Type in your birth month and <Enter>: ");
+		System.out.print("Type in your birth month: ");
 		month = sc.nextInt();
 		
-		System.out.print("Type in your birth date and <Enter>: ");
+		System.out.print("Type in your birth date: ");
 		day = sc.nextInt();
 		
 		System.out.print("Type in today's date: ");
 		System.out.print("\n");
 	    
-		System.out.print("Type in this year and  <Enter>: ");
+		System.out.print("Type in this year: ");
 		year1 = sc.nextInt();
 		
-		System.out.print("Type in this month and <Enter>: ");
+		System.out.print("Type in this month: ");
 		month1 = sc.nextInt();
 		
-		System.out.print("Type in today's date and <Enter>: ");
+		System.out.print("Type in today's date: ");
 		day1 = sc.nextInt();
 		
 		
