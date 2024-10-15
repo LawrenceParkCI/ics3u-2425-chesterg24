@@ -19,9 +19,8 @@ public class Casting2 {
     System.out.println(myChar);
     System.out.println(myChar + 1);
 
-    char myChar2 = (char) (myChar + 1);
-
-    System.out.println(myChar2);
+    char myChar2 = (char) (myChar + 1); 
+    System.out.println(myChar2); // Prints 'b'
 
     //Explain what is happening in the code. Where is there explicit casting, where is there implicit casting?
     //The code has the character "a" and the next line adds by the number 1. This is explicit casting. Then char1 is changed to char2 which is also explicit casting
@@ -34,10 +33,8 @@ public class Casting2 {
 
     //create a new character myCharCap, and transform myChar into a capital 'A' and print it
 
-    char myCharCap = (myChar2);
-    
-    System.out.println(myChar2);
-    System.out.println(myChar2.touppercase);
+    char myCharCap = Character.toUpperCase(myChar); 
+    System.out.println(myCharCap); // Prints 'A'
     
     
 
