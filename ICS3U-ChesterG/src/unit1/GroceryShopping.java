@@ -90,6 +90,27 @@ public class GroceryShopping {
         System.out.println("\nHave a good day!");
         System.out.println("Thank you for shopping at Mr. Chester’s Grocery!");
         
+        //Smiley face :)
+        
+        System.out.print("\n\n");        
+        System.out.println("                               %%@@@@@&(((&@@@@@#%  ");
+        System.out.println("                            @@&                   @@@  ");
+        System.out.println("                         @@                          .@@   ");
+        System.out.println("                       @@        @@@         @@@        @@  ");
+        System.out.println("                     @@          @@@         @@@          @(  ");
+        System.out.println("                    @@          @@@@        @@@@           @&");
+        System.out.println("                   (@            @@@         @@@            @  ");
+        System.out.println("                   @&             @           @             @@  ");
+        System.out.println("                   @(    @@                           @@    @@ ");
+        System.out.println("                   @@    @@                           @@    @@   ");
+        System.out.println("                   *@     @@                         @@     @ ");
+        System.out.println("                    @@     @@                       @%     @%");
+        System.out.println("                     &@      @@                  *@@      @, ");
+        System.out.println("                       @@       @@@          *@@@       @@");
+        System.out.println("                         @@.       @@,%%%,@@@         #@@ ");
+        System.out.println("                            @@@                   @@@ ");
+        System.out.println("                                 @@@@@@@@@@@@@@@ ");
+        System.out.println("");
 
 	}
 }
