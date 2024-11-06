@@ -2,19 +2,31 @@ package unit2;
 import java.util.Scanner;
 
 /**
- * Description:
- * Date:
- * @author 
-*/
+ * Description: Prompts user to enter three numbers, then checks if numbers are in increasing order.
+ * Date: 
+ * Author: 
+ */
 
 public class IfChallenge2 {
   public static void main(String[] args) {
-    //This is for the portfolio
+    Scanner scanner = new Scanner(System.in);
+    
+    System.out.print("Enter the first number: ");
+    int num1 = scanner.nextInt();
+    
+    System.out.print("Enter the second number: ");
+    int num2 = scanner.nextInt();
+    
+    System.out.print("Enter the third number: ");
+    int num3 = scanner.nextInt();
 
-    /*Create a program that asks for three numbers.
-    Tell the user if the numbers are strictly in order.
-    ie.  2 5 11 or 5 6 7 are strictly in order.
-    ie.  6 5 7 or 5 5 7 are not
-    */
+    // Check if the numbers are in strictly increasing order
+    if (num1 < num2 && num2 < num3) {
+      System.out.println("The numbers are in increasing order!");
+    } else {
+      System.out.println("The numbers are NOT in increasing order!");
+    }
+
+    scanner.close();
   }
 }
