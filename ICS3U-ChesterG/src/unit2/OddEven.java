@@ -1,5 +1,12 @@
 package unit2;
+
 import java.util.Scanner;
+
+/**
+ * Description:
+ * Date:
+ * @author 
+*/
 
 public class OddEven {
  public static void main(String[] args) {

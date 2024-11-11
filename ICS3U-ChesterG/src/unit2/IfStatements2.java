@@ -1,10 +1,11 @@
 package unit2;
+
 import java.util.Scanner;
 
 /**
-* Description:
-* Date:
-* @author
+ * Description:
+ * Date:
+ * @author 
 */
 
 public class IfStatements2 {

@@ -1,5 +1,11 @@
 package unit2;
+
 import java.util.Scanner;
+/**
+ * Description:
+ * Date:
+ * @author 
+*/
 
 public class PositiveNegative {
  public static void main(String[] args) {

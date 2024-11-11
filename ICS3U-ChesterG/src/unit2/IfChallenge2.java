@@ -1,12 +1,11 @@
 package unit2;
+
 import java.util.Scanner;
-
 /**
- * Description: Prompts user to enter three numbers, then checks if numbers are in increasing order.
- * Date: 
- * Author: 
- */
-
+ * Description:
+ * Date:
+ * @author 
+*/
 public class IfChallenge2 {
   public static void main(String[] args) {
     Scanner scanner = new Scanner(System.in);
