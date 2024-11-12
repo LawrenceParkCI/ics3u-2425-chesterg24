@@ -47,7 +47,7 @@ public class StringComparison {
 	    // What values does compareTo() return? How can we interpret the value?
 	    //The compareTo() method returns an integer:
 	    //0 if the strings are identical.
-	    //A negative value if the calling string (e.g., answer) comes before the compared string (e.g., correctAnswer) lexicographically.
+	    //A negative value if the calling string comes before the compared string lexicographically.
 	    //A positive value if the calling string comes after the compared string lexicographically.
 	    //This allows us to determine the relative ordering of two strings.
 
@@ -55,7 +55,7 @@ public class StringComparison {
 	    //Both methods return a boolean:
 	    //true if the strings are considered equal based on their criteria.
 	    //false if they are not equal.
-	    //equals() requires an exact match (case-sensitive), while equalsIgnoreCase() ignores case differences.
+	    //equals() requires an exact match, while equalsIgnoreCase() ignores case differences.
 
 	    // What is the difference between these two functions?
 	    //equals() checks for an exact, case-sensitive match.
