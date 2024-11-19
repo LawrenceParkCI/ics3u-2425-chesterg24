@@ -1,8 +1,8 @@
 package unit2;
 /**
-Description:
-Date:
-@author:
+Description: Randoomness
+Date: 2024/11/19
+@author: Gavin Chester
 */
 
 public class Randomness {

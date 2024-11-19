@@ -1,9 +1,9 @@
 package unit2;
 
 /**
- * Description:
- * Date:
- * @author
+ * Description: Double Dice Contest
+ * Date: 2024/11/19
+ * @author: Gavin Chester
  */
 public class DoubleDiceContest {
 
