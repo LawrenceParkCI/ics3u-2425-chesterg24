@@ -1,5 +1,7 @@
 package unit2;
 
+import java.util.Scanner;
+
 /**
  * Description: Double Dice Contest
  * Date: 2024/11/19
@@ -13,7 +15,6 @@ public class DoubleDiceContest {
    * The program should output the total of the two dice for both the user and the computer, 
    * then announce who won: the computer, the user, or say it was a tie.
    */
-
 
  }
 
