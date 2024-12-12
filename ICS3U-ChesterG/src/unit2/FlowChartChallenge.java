@@ -26,8 +26,6 @@ class FlowChartChallenge {
 	    } while (!name.equals("Ms. Kemp"));
 
 	    System.out.println("You are welcome into the secret secret pogchamp club.");
-
-	    in.close();
     
   }
 }
